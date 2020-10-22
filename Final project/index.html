@@ -1,0 +1,92 @@
+
+<html lang="en">
+    <head>
+      <title>Car mags</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body> 
+     
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="leftMenu">
+    <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+    <a href="https://www.instagram.com/agent_shallow/" class="w3-bar-item w3-button">Rashed</a>
+    <a href="https://www.barmej.com/" class="w3-bar-item w3-button">Barmej</a>
+    <a href="https://github.com/barmej" class="w3-bar-item w3-button">Barmej(Github)</a>
+    <a href="https://www.instagram.com/barmej/" class="w3-bar-item w3-button">Barmej(Instagram)</a>
+    <a href="https://twitter.com/barmej" class="w3-bar-item w3-button">Barmej(Twitter)</a>
+    <a href="https://www.facebook.com/barmej" class="w3-bar-item w3-button">Barmej(Facebook)</a>
+    </div>
+  
+  <div class="w3-teal">
+    <button class="w3-button w3-teal w3-xlarge w3-left" onclick="openLeftMenu()">&#9776;</button>
+    
+    <div class="w3-container">
+      <h1 style="background-color:rgb(0, 38, 255);">Car mags</h1>
+    </div>
+  </div>
+  
+  <div class="w3-container">
+  <p>We have created two "menu" buttons: one to open the side navigation from the left and one to open it from the right.</p>
+  </div>
+       
+  <script>
+  function openLeftMenu() {
+    document.getElementById("leftMenu").style.display = "block";
+  }
+  
+  function closeLeftMenu() {
+    document.getElementById("leftMenu").style.display = "none";
+  }
+  
+  function openRightMenu() {
+    document.getElementById("rightMenu").style.display = "block";
+  }
+  
+  function closeRightMenu() {
+    document.getElementById("rightMenu").style.display = "none";
+  }
+  </script>
+    <div class="container">
+      
+      <p>Select the decade to view the results.</p>
+      <div class="card-columns">
+        <div class="card bg-primary">
+          <div class="card-body text-center">
+            <p class="card-text">60-69</p>
+          </div>
+        </div>
+        <div class="card bg-warning">
+          <div class="card-body text-center">
+            <p class="card-text">70-79</p>
+          </div>
+        </div>
+        <div class="card bg-success">
+          <div class="card-body text-center">
+            <p class="card-text">80-89</p>
+          </div>
+        </div>
+        <div class="card bg-danger">
+          <div class="card-body text-center">
+            <p class="card-text">90-99</p>
+          </div>
+        </div>  
+        <div class="card bg-light">
+          <div class="card-body text-center">
+            <p class="card-text">00-09</p>
+          </div>
+        </div>
+        <div class="card bg-info">
+          <div class="card-body text-center">
+            <p class="card-text">10-19</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    </body>
+    </html>
+    
